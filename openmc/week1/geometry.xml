@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" name="fuel" region="-1" universe="1" />
+  <cell id="2" material="2" name="water" region="1 2 -3 4 -5" universe="1" />
+  <surface coeffs="0.0 0.0 1.5" id="1" type="z-cylinder" />
+  <surface boundary="reflective" coeffs="-2.5" id="2" name="minimum x" type="x-plane" />
+  <surface boundary="reflective" coeffs="2.5" id="3" name="maximum x" type="x-plane" />
+  <surface boundary="reflective" coeffs="-2.5" id="4" name="minimum y" type="y-plane" />
+  <surface boundary="reflective" coeffs="2.5" id="5" name="maximum y" type="y-plane" />
+</geometry>
